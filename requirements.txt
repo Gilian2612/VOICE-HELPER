@@ -1,0 +1,21 @@
+# Captura de audio (WASAPI loopback, solo Windows)
+PyAudioWPatch; sys_platform == "win32"
+
+# Speech-to-text en streaming
+deepgram-sdk>=3
+
+# LLM
+anthropic
+
+# Knowledge base (RAG)
+chromadb
+
+# Extracción de texto del CV
+pypdf
+python-docx
+
+# UI overlay
+PyQt6
+
+# Config
+python-dotenv

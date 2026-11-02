@@ -1,0 +1,19 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Datos por persona (no se versionan)
+cvs/*
+!cvs/.gitkeep
+data/chroma/*
+!data/chroma/.gitkeep
+
+# OS / editores
+.DS_Store
+.vscode/
+.idea/
